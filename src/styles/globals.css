@@ -1,0 +1,38 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+
+  /* Custom Scrollbar 
+  &::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  &::-webkit-scrollbar-track {
+    background: #f9fbff;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #1b1c1e;
+    border-radius: 9999px;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: #1b1c1ecc;
+  }
+  &::-webkit-scrollbar-corner {
+    display: none;
+  } */
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+textarea {
+  resize: none !important;
+}

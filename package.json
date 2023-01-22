@@ -1,0 +1,33 @@
+{
+  "name": "gosafejourney-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 4400",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.3.7",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@next/font": "^13.0.3",
+    "chakra-react-select": "^4.4.0",
+    "country-state-city": "^3.1.2",
+    "date-fns": "^2.29.3",
+    "framer-motion": "^7.6.9",
+    "next": "^13.0.3",
+    "react": "^18.2.0",
+    "react-date-range": "^1.4.0",
+    "react-dates": "^21.8.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "eslint-config-next": "^13.0.3",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1"
+  }
+}
